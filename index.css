@@ -2384,7 +2384,7 @@ html {
     z-index: 100;
     color: #1a1818;
     text-align: left;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     border: 0 solid #000;
     font-family: Grandslang roman, sans-serif;
     font-size: 1vw;
