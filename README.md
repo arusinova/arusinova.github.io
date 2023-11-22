@@ -1,7 +1,7 @@
 # My Personal Website :) 🌩
 
 ## Link to the Website
-[Insert your GitHub Pages URL here]
+https://arusinova.github.io/
 
 
 ## Overview of the Project
