@@ -279,7 +279,7 @@ html {
     background-color: #3898ec;
     border: 0;
     border-radius: 0;
-    padding: 9px 15px;
+    padding: 9px 10px;
     text-decoration: none;
     display: inline-block;
   }
@@ -3587,7 +3587,7 @@ html {
     }
   
     .button {
-      padding: 12px 24px;
+      padding: 12px 12px;
       font-size: 12px;
     }
   
