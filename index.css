@@ -1203,8 +1203,9 @@ html {
     height: 300px;
     text-align: center;
     clear: both;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    tap-highlight-color: rgba(0, 0, 0, 0);
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    color: rgba(0, 0, 0, 0);
+    /* tap-highlight-color: rgba(0, 0, 0, 0); */
     background: #ddd;
     position: relative;
   }
@@ -1234,8 +1235,8 @@ html {
     z-index: 2;
     height: 40px;
     text-align: center;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    tap-highlight-color: rgba(0, 0, 0, 0);
+    /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    stop-color: rgba(0, 0, 0, 0);
     margin: auto;
     padding-top: 10px;
     position: absolute;
@@ -2469,6 +2470,7 @@ html {
     padding-bottom: 30px;
     display: flex;
     position: fixed;
+    gap: 5%;
   }
   
   .nav-left.nav-left-alt {
@@ -3101,7 +3103,7 @@ html {
       padding-left: 5%;
     }
   
-    .wrapper.wrapper-small {
+    .wrapper .wrapper-small {
       max-width: 80%;
     }
   
@@ -3112,7 +3114,7 @@ html {
       position: static;
     }
   
-    .section-left.section-long {
+    .section-left .section-long {
       width: 100%;
     }
   
@@ -3123,17 +3125,17 @@ html {
       display: block;
     }
   
-    .section-right.section-long {
+    .section-right .section-long {
       padding-top: 0%;
       padding-left: 0%;
     }
   
-    .content.content-work {
+    .content .content-work {
       max-width: 100%;
-      padding-top: 36%;
+      /* padding-top: 36%; */
     }
   
-    .content.content-main {
+    .content .content-main {
       margin-left: 0%;
       padding-top: 0%;
     }
@@ -3168,11 +3170,13 @@ html {
     .nav {
       padding-top: 10%;
       padding-left: 0%;
+      gap: 30%;
     }
   
     .nav-item {
       padding-bottom: 2%;
       display: block;
+      color: #000;
     }
   
     .nav-link {
@@ -3335,11 +3339,12 @@ html {
     }
   
     .section-left {
-      padding-top: 20%;
+      /* padding-top: 20%; */
     }
   
     .section-right {
-      padding-top: 2vh;
+      padding-top: 3vh;
+      gap: 30%;
     }
   
     .header.swipe-up {
@@ -3469,6 +3474,7 @@ html {
   
     .section-right {
       padding-top: 0;
+      color: #000;
     }
   
     .content.content-work {
@@ -3497,6 +3503,13 @@ html {
   
     .nav-item {
       padding-bottom: 4%;
+      color: #000;
+      font-family: 'Butler';
+      src: url('../Butler-Bold.woff') format('woff'), url('../Butler_Bold.otf') format('opentype');
+      font-weight: 700;
+      font-style: normal;
+      font-display: auto;
+      font-size: 40px;
     }
   
     .nav-link {
