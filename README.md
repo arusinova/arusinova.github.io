@@ -1,7 +1,7 @@
 # My Personal Website :) 🌩
 
 ## Link to the Website
-https://arusinova.github.io/
+🌿  https://arusinova.github.io/
 
 
 ## Overview of the Project
@@ -19,3 +19,6 @@ The website was developed using the following technology stack:
 
 ## License
 This project is licensed under the MIT License. The MIT License was chosen for this project due to its simplicity, permissiveness, and wide adoption in the open-source community. The MIT License allows users to freely use, modify, and distribute the project's code without imposing significant restrictions.
+
+<p align="center">Copyright &copy; 2023-present <a href="https://github.com/arusinova" target="_blank">Anna Rusinova</a>
+<p align="center"><a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
